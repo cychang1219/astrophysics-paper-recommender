@@ -4,7 +4,7 @@ AstroPaperRec is a content-based recommendation prototype for discovering astrop
 
 ## Repository contents
 
-- `main(1).ipynb` — notebook for data filtering, recommendation, and evaluation.
+- `main.ipynb` — notebook for data filtering, recommendation, and evaluation.
 - `requirements.txt` — Python dependencies.
 
 ## Requirements
@@ -26,7 +26,7 @@ python -m pip install pandas scikit-learn sentence-transformers kagglehub jupyte
    jupyter notebook
    ```
 
-3. Open `main(1).ipynb` and run the cells in order.
+3. Open `main.ipynb` and run the cells in order.
 
 The notebook downloads the arXiv metadata dataset through KaggleHub, filters astrophysics papers, creates TF-IDF and Sentence-BERT representations, and lets you search for a seed paper by title keyword before generating recommendations.
 
